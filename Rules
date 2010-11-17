@@ -23,6 +23,10 @@ compile '/stylesheets/*' do
 
 end
 
+compile /(rss|atom)/ do
+  filter :erb unless rep.binary? # e.g. rss.png image
+end
+
 compile '/00/' do
   filter :erb
   layout 'main'
@@ -43,6 +47,10 @@ end
 
 route '/stylesheets/*' do
   item.identifier.chop + '.css'
+end
+
+route '/(atom|rss)/' do
+  item.identifier.chop + '.xml'
 end
 
 route '*' do

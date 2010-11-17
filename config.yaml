@@ -19,6 +19,11 @@ index_filenames: [ '00.html' ]
 # before and after the last site compilation.
 enable_output_diff: false
 
+base_url: "http://psd2cms.ru"
+author_name: "Sergey Ovechkin"
+author_email: "me@sovechkin.com"
+author_uri: "http://sovechkin.com"
+
 # The data sources where nanoc loads its data from. This is an array of
 # hashes; each array element represents a single data source. By default,
 # there is only a single data source that reads data from the “content/” and

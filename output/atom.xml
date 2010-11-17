@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://psd2cms.ru/</id>
+  <title>&#1057;&#1082;&#1088;&#1080;&#1085;&#1082;&#1072;&#1089;&#1090;&#1099; &#1086; &#1090;&#1086;&#1084; &#1082;&#1072;&#1082; &#1088;&#1077;&#1079;&#1072;&#1090;&#1100; &#1080; &#1085;&#1072;&#1090;&#1103;&#1075;&#1080;&#1074;&#1072;&#1090;&#1100;</title>
+  <updated>2012-12-21T00:00:00Z</updated>
+  <link href="http://psd2cms.ru/" rel="alternate"/>
+  <link href="http://psd2cms.ru/atom.xml" rel="self"/>
+  <author>
+    <name>Sergey Ovechkin</name>
+    <uri>http://sovechkin.com</uri>
+  </author>
+  <entry>
+    <id>tag:psd2cms.ru,2012-12-21:/03.html</id>
+    <title type="html">&#1056;&#1077;&#1078;&#1077;&#1084; &#1092;&#1091;&#1090;&#1077;&#1088; &#1084;&#1072;&#1082;&#1077;&#1090;&#1072; #1</title>
+    <published>2012-12-21T00:00:00Z</published>
+    <updated>2012-12-21T00:00:00Z</updated>
+    <link href="http://psd2cms.ru/03.html" rel="alternate"/>
+    <content type="html">&lt;object type="application/x-shockwave-flash" data="http://psd2cms.ru/flash/player.swf" width="500" height="375"&gt;
+  &lt;param name="movie" value="http://psd2cms.ru/flash/player.swf" /&gt;
+  &lt;param name="quality" value="high"/&gt;
+  &lt;param name="flashvars" value="file=http://video.psd2cms.ru/03.mp4&amp;amp;skin=/flash/modieus.swf&amp;amp;image=/flash/preview.png&amp;amp;plugins=sharing-1,gapro-1&amp;amp;sharing.link=http://psd2cms.ru&amp;amp;sharing.code=%3Cembed%20src%3D%22http%3A%2F%2Fdeveloper.longtailvideo.com%2Fplayer%2Ftrunk%2Fas3%2Fplayer.swf%22%20flashvars%3D%22file%3Dhttp%3A%2F%2Fvideo.psd2cms.ru%2F03.mp4%22%20width%3D%22500%22%20height%3D%22375%22%20%2F%3E&amp;amp;gapro.accountid=UA-3260762-10" /&gt;
+  &lt;param name="wmode" value="transparent" /&gt;
+  &lt;param name="allowscriptaccess" value="always" /&gt;
+  &lt;param name="allowfullscreen" value="true" /&gt;
+  &lt;embed src="http://developer.longtailvideo.com/player/trunk/as3/player.swf" flashvars="file=http://video.psd2cms.ru/03.mp4" width="500" height="375" /&gt;
+&lt;/object&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://video.psd2cms.ru/03-1280x800-low.mp4"&gt;1280x800 &#1085;&#1080;&#1079;&#1082;&#1086;&#1077; &#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1086; (22Mb)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://video.psd2cms.ru/03-1280x800-high.mp4"&gt;1280x800 &#1074;&#1099;&#1089;&#1086;&#1082;&#1086;&#1077; &#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1086; (177Mb)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:psd2cms.ru,2012-12-21:/02.html</id>
+    <title type="html">&#1056;&#1077;&#1078;&#1077;&#1084; &#1096;&#1072;&#1087;&#1082;&#1091; &#1084;&#1072;&#1082;&#1077;&#1090;&#1072; #1</title>
+    <published>2012-12-20T23:00:00Z</published>
+    <updated>2012-12-20T23:00:00Z</updated>
+    <link href="http://psd2cms.ru/02.html" rel="alternate"/>
+    <content type="html">&lt;object type="application/x-shockwave-flash" data="http://psd2cms.ru/flash/player.swf" width="500" height="375"&gt;
+  &lt;param name="movie" value="http://psd2cms.ru/flash/player.swf" /&gt;
+  &lt;param name="quality" value="high"/&gt;
+  &lt;param name="flashvars" value="file=http://video.psd2cms.ru/02.mp4&amp;amp;skin=/flash/modieus.swf&amp;amp;image=/flash/preview.png&amp;amp;plugins=sharing-1,gapro-1&amp;amp;sharing.link=http://psd2cms.ru&amp;amp;sharing.code=%3Cembed%20src%3D%22http%3A%2F%2Fdeveloper.longtailvideo.com%2Fplayer%2Ftrunk%2Fas3%2Fplayer.swf%22%20flashvars%3D%22file%3Dhttp%3A%2F%2Fvideo.psd2cms.ru%2F02.mp4%22%20width%3D%22500%22%20height%3D%22375%22%20%2F%3E&amp;amp;gapro.accountid=UA-3260762-10" /&gt;
+  &lt;param name="wmode" value="transparent" /&gt;
+  &lt;param name="allowscriptaccess" value="always" /&gt;
+  &lt;param name="allowfullscreen" value="true" /&gt;
+  &lt;embed src="http://developer.longtailvideo.com/player/trunk/as3/player.swf" flashvars="file=http://video.psd2cms.ru/02.mp4" width="500" height="375" /&gt;
+&lt;/object&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://video.psd2cms.ru/02-1280x800-low.mp4"&gt;1280x800 &#1085;&#1080;&#1079;&#1082;&#1086;&#1077; &#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1086; (61Mb)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://video.psd2cms.ru/02-1280x800-high.mp4"&gt;1280x800 &#1074;&#1099;&#1089;&#1086;&#1082;&#1086;&#1077; &#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1086; (496Mb)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:psd2cms.ru,2012-12-21:/01.html</id>
+    <title type="html">&#1047;&#1085;&#1072;&#1082;&#1086;&#1084;&#1089;&#1090;&#1074;&#1086; &#1089; &#1084;&#1072;&#1082;&#1077;&#1090;&#1086;&#1084; #1</title>
+    <published>2012-12-20T22:00:00Z</published>
+    <updated>2012-12-20T22:00:00Z</updated>
+    <link href="http://psd2cms.ru/01.html" rel="alternate"/>
+    <content type="html">&lt;object type="application/x-shockwave-flash" data="http://psd2cms.ru/flash/player.swf" width="500" height="375"&gt;
+  &lt;param name="movie" value="http://psd2cms.ru/flash/player.swf" /&gt;
+  &lt;param name="quality" value="high"/&gt;
+  &lt;param name="flashvars" value="file=http://video.psd2cms.ru/01.mp4&amp;amp;skin=http://psd2cms.ru/flash/modieus.swf&amp;amp;image=http://video.psd2cms.ru/flash/preview.png&amp;amp;plugins=sharing-1,gapro-1&amp;amp;sharing.link=http://psd2cms.ru&amp;amp;sharing.code=%3Cembed%20src%3D%22http%3A%2F%2Fdeveloper.longtailvideo.com%2Fplayer%2Ftrunk%2Fas3%2Fplayer.swf%22%20flashvars%3D%22file%3Dhttp%3A%2F%2Fvideo.psd2cms.ru%2F01.mp4%22%20width%3D%22500%22%20height%3D%22375%22%20%2F%3E&amp;amp;gapro.accountid=UA-3260762-10" /&gt;
+  &lt;param name="wmode" value="transparent" /&gt;
+  &lt;param name="allowscriptaccess" value="always" /&gt;
+  &lt;param name="allowfullscreen" value="true" /&gt;
+  &lt;embed src="http://developer.longtailvideo.com/player/trunk/as3/player.swf" flashvars="file=http://video.psd2cms.ru/01.mp4" width="500" height="375" /&gt;
+&lt;/object&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://video.psd2cms.ru/01-1280x800-low.mp4"&gt;1280x800 &#1085;&#1080;&#1079;&#1082;&#1086;&#1077; &#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1086; (5Mb)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://video.psd2cms.ru/01-1280x800-high.mp4"&gt;1280x800 &#1074;&#1099;&#1089;&#1086;&#1082;&#1086;&#1077; &#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1086; (29Mb)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+</feed>

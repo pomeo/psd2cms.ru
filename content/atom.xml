@@ -1,0 +1,6 @@
+---
+permalink: 'atom'
+type: 'feed'
+title: 'Скринкасты о том как резать и натягивать'
+---
+<%= atom_feed :limit => 30 %>

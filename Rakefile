@@ -1,1 +1,5 @@
+require 'rubygems'
+require 'unicode'
+require 'rutils'
+$KCODE = 'u'
 require 'nanoc3/tasks'
