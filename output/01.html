@@ -5,7 +5,11 @@
     <title>Знакомство с макетом #1</title>
     <link rel="stylesheet" type="text/css" media="all" href="/stylesheets/styles.css" />
     <link rel="stylesheet" type="text/css" media="all" href="/stylesheets/fancybox.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/stylesheets/video-js.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/stylesheets/vim.css" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="/javascripts/video.js">
     </script>
     <script type="text/javascript" src="/javascripts/jquery.geekga.js">
     </script>
@@ -34,15 +38,18 @@
           <div class="hentry">
             <h1 class="entry-title">Знакомство с макетом #1</h1>
             <p class="date"><abbr class="updated published" title="20121223">23 декабря 2012</abbr></p>
-            <div class="content">
-			  <object id="flash" type="application/x-shockwave-flash" data="/flash/player.swf" width="500" height="375">
-				<param name="movie" value="/flash/player.swf" />
-				<param name="quality" value="high"/>
-				<param name="flashvars" value="file=http://video.psd2cms.ru/01.mp4&amp;skin=/flash/modieus.swf&amp;image=/flash/preview.png&amp;plugins=sharing-1,gapro-1&amp;sharing.link=http://psd2cms.ru&amp;sharing.code=%3Cembed%20src%3D%22http%3A%2F%2Fdeveloper.longtailvideo.com%2Fplayer%2Ftrunk%2Fas3%2Fplayer.swf%22%20flashvars%3D%22file%3Dhttp%3A%2F%2Fvideo.psd2cms.ru%2F01.mp4%22%20width%3D%22500%22%20height%3D%22375%22%20%2F%3E&amp;gapro.accountid=UA-3260762-10" />
-				<param name="wmode" value="transparent" />
-				<param name="allowscriptaccess" value="always" />
-				<param name="allowfullscreen" value="true" />
-			  </object>
+            <div class="content video-js-box vim-css">
+			  <video class="video-js" width="500" height="375" controls preload poster="http://psd2cms.ru/flash/preview5.png">
+				<source src="http://video.psd2cms.ru/01.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+				<object id="flash" class="vjs-flash-fallback" type="application/x-shockwave-flash" data="/flash/player.swf" width="500" height="375">
+				  <param name="movie" value="/flash/player.swf" />
+				  <param name="quality" value="high"/>
+				  <param name="flashvars" value="file=http://video.psd2cms.ru/01.mp4&amp;skin=/flash/modieus.swf&amp;image=/flash/preview.png&amp;plugins=sharing-1,gapro-1&amp;sharing.link=http://psd2cms.ru&amp;sharing.code=%3Cembed%20src%3D%22http%3A%2F%2Fdeveloper.longtailvideo.com%2Fplayer%2Ftrunk%2Fas3%2Fplayer.swf%22%20flashvars%3D%22file%3Dhttp%3A%2F%2Fvideo.psd2cms.ru%2F01.mp4%22%20width%3D%22500%22%20height%3D%22375%22%20%2F%3E&amp;gapro.accountid=UA-3260762-10" />
+				  <param name="wmode" value="transparent" />
+				  <param name="allowscriptaccess" value="always" />
+				  <param name="allowfullscreen" value="true" />
+				</object>
+			  </video>
             </div>
             <div class="entrymeta">
               <div class="postinfo">
@@ -112,6 +119,14 @@
     
               <li><a href="/03.html" title="Режем футер макета #1">01</a></li>
 	
+  
+
+  
+
+  
+
+  
+
   
 
   

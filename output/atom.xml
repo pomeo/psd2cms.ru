@@ -15,9 +15,10 @@
     <published>2012-12-21T00:00:00Z</published>
     <updated>2012-12-21T00:00:00Z</updated>
     <link href="http://psd2cms.ru/03.html" rel="alternate"/>
-    <content type="html">&lt;object width="500" height="375"&gt;
-  &lt;embed width="500" height="375" type="application/x-shockwave-flash" wmode="transparent" allowfullscreen="true" allowscriptaccess="never" src="http://developer.longtailvideo.com/player/trunk/as3/player.swf" flashvars="file=http://video.psd2cms.ru/03.mp4" /&gt;
-&lt;/object&gt;
+    <content type="html">&lt;video width="500" height="375" controls="controls" preload="auto" poster="http://psd2cms.ru/flash/preview5.png"&gt;
+  &lt;source src="http://video.psd2cms.ru/03.mp4" type="video/mp4" /&gt;
+  &#1079;&#1076;&#1077;&#1089;&#1100; &#1090;&#1077;&#1075; video &#1086;&#1090; html5, &#1074;&#1080;&#1076;&#1077;&#1086; &#1084;&#1086;&#1078;&#1085;&#1086; &#1083;&#1080;&#1073;&#1086; &#1089;&#1082;&#1072;&#1095;&#1072;&#1090;&#1100; &#1087;&#1086; &#1089;&#1089;&#1099;&#1083;&#1082;&#1072;&#1084; &#1085;&#1080;&#1078;&#1077; &#1080;&#1083;&#1080; &#1087;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1090;&#1100; &lt;a href="http://psd2cms.ru/03.html"&gt;&#1085;&#1072; &#1089;&#1072;&#1081;&#1090;&#1077;&lt;/a&gt;
+&lt;/video&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href="http://video.psd2cms.ru/03-1280x800-low.mp4"&gt;1280x800 &#1085;&#1080;&#1079;&#1082;&#1086;&#1077; &#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1086; (22Mb)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://video.psd2cms.ru/03-1280x800-high.mp4"&gt;1280x800 &#1074;&#1099;&#1089;&#1086;&#1082;&#1086;&#1077; &#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1086; (177Mb)&lt;/a&gt;&lt;/li&gt;
@@ -29,9 +30,10 @@
     <published>2012-12-20T23:00:00Z</published>
     <updated>2012-12-20T23:00:00Z</updated>
     <link href="http://psd2cms.ru/02.html" rel="alternate"/>
-    <content type="html">&lt;object width="500" height="375"&gt;
-  &lt;embed width="500" height="375" type="application/x-shockwave-flash" wmode="transparent" allowfullscreen="true" allowscriptaccess="never" src="http://developer.longtailvideo.com/player/trunk/as3/player.swf" flashvars="file=http://video.psd2cms.ru/02.mp4" /&gt;
-&lt;/object&gt;
+    <content type="html">&lt;video width="500" height="375" controls="controls" preload="auto" poster="http://psd2cms.ru/flash/preview5.png"&gt;
+  &lt;source src="http://video.psd2cms.ru/02.mp4" type="video/mp4" /&gt;
+  &#1079;&#1076;&#1077;&#1089;&#1100; &#1090;&#1077;&#1075; video &#1086;&#1090; html5, &#1074;&#1080;&#1076;&#1077;&#1086; &#1084;&#1086;&#1078;&#1085;&#1086; &#1083;&#1080;&#1073;&#1086; &#1089;&#1082;&#1072;&#1095;&#1072;&#1090;&#1100; &#1087;&#1086; &#1089;&#1089;&#1099;&#1083;&#1082;&#1072;&#1084; &#1085;&#1080;&#1078;&#1077; &#1080;&#1083;&#1080; &#1087;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1090;&#1100; &lt;a href="http://psd2cms.ru/02.html"&gt;&#1085;&#1072; &#1089;&#1072;&#1081;&#1090;&#1077;&lt;/a&gt;
+&lt;/video&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href="http://video.psd2cms.ru/02-1280x800-low.mp4"&gt;1280x800 &#1085;&#1080;&#1079;&#1082;&#1086;&#1077; &#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1086; (61Mb)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://video.psd2cms.ru/02-1280x800-high.mp4"&gt;1280x800 &#1074;&#1099;&#1089;&#1086;&#1082;&#1086;&#1077; &#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1086; (496Mb)&lt;/a&gt;&lt;/li&gt;
@@ -43,9 +45,9 @@
     <published>2012-12-20T22:00:00Z</published>
     <updated>2012-12-20T22:00:00Z</updated>
     <link href="http://psd2cms.ru/01.html" rel="alternate"/>
-    <content type="html">&lt;video width="500" height="375" controls="controls" preload="auto"&gt;
+    <content type="html">&lt;video width="500" height="375" controls="controls" preload="auto" poster="http://psd2cms.ru/flash/preview5.png"&gt;
   &lt;source src="http://video.psd2cms.ru/01.mp4" type="video/mp4" /&gt;
-  &#1079;&#1076;&#1077;&#1089;&#1100; &#1090;&#1077;&#1075; video &#1086;&#1090; html5, &#1085;&#1072; &#1092;&#1083;&#1077;&#1096;&#1077; &#1084;&#1086;&#1078;&#1085;&#1086; &#1087;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1090;&#1100; &#1085;&#1072; &#1089;&#1072;&#1081;&#1090;&#1077; &#1087;&#1086; &lt;a href="http://psd2cms.ru/01.html"&gt;&#1089;&#1089;&#1099;&#1083;&#1082;&#1077;&lt;/a&gt;
+  &#1079;&#1076;&#1077;&#1089;&#1100; &#1090;&#1077;&#1075; video &#1086;&#1090; html5, &#1074;&#1080;&#1076;&#1077;&#1086; &#1084;&#1086;&#1078;&#1085;&#1086; &#1083;&#1080;&#1073;&#1086; &#1089;&#1082;&#1072;&#1095;&#1072;&#1090;&#1100; &#1087;&#1086; &#1089;&#1089;&#1099;&#1083;&#1082;&#1072;&#1084; &#1085;&#1080;&#1078;&#1077; &#1080;&#1083;&#1080; &#1087;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1090;&#1100; &lt;a href="http://psd2cms.ru/01.html"&gt;&#1085;&#1072; &#1089;&#1072;&#1081;&#1090;&#1077;&lt;/a&gt;
 &lt;/video&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href="http://video.psd2cms.ru/01-1280x800-low.mp4"&gt;1280x800 &#1085;&#1080;&#1079;&#1082;&#1086;&#1077; &#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1086; (5Mb)&lt;/a&gt;&lt;/li&gt;

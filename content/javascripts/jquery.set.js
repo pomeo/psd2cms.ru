@@ -22,6 +22,7 @@ $.fn.hAlign = function() {
 })(jQuery);
 
 $(document).ready(function() {
+	$(".video-js").VideoJS();
     $(".posts").hAlign();
     $(".commentmeta").fancybox({ 'hideOnContentClick': false });
 	$().geekGaTrackPage('UA-3260762-10');
