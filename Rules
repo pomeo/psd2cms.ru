@@ -11,7 +11,7 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
-compile /(images|favicon|robots|flash)/ do
+compile /(images|favicon|robots|flash|sitemap)/ do
   # do nothing
 end
 
@@ -37,7 +37,7 @@ compile '*' do
   layout 'default'
 end
 
-route /\/(images|favicon|robots|flash)\// do
+route /\/(images|favicon|robots|flash|sitemap)\// do
   item.identifier.chop + ".#{item[:extension]}"
 end
 

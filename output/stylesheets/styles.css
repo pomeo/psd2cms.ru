@@ -62,7 +62,7 @@ a:hover {
     overflow:auto;
 }
 .hentry {
-    padding:0px 115px 0px 15px;
+    padding:0px 110px 0px 10px;
     position:relative;
 }
 .hentry .entry-title{
@@ -86,7 +86,6 @@ a:hover {
     height:375px;
     text-indent:0px;
     line-height:0;
-    margin:1em 0;
 }
 .table-of-contents {
 	list-style:decimal-leading-zero;
@@ -175,4 +174,8 @@ div.pagination ul.posts li a:hover, div.pagination ul.posts li a.active{
 }
 .author:hover {
     color:#AAA;
+}
+.addthis_toolbox {
+    padding-left:220px;
+	padding-top:7px;
 }

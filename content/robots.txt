@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://psd2cms.ru/sitemap.xml
+Host: psd2cms.ru
