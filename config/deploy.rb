@@ -3,7 +3,7 @@
 #========================
 set :application, "psd2cms"
 set :appweb, "#{application}.ru"
-set :repository,  "gitosis@git.jondoe.ru:#{application}"
+set :repository,  "git@github.com:pomeo/#{appweb}.git"
 set :user, "pomeo"
 set :port, 2222
 set :use_sudo, false
