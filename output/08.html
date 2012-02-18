@@ -13,6 +13,7 @@
     </script>
     <script src="/javascripts/jquery.set.js">
     </script>
+    <script src="http://vkontakte.ru/js/api/share.js?9" charset="windows-1251"></script>
     <!--[if IE]>
     <style type="text/css" media="all">
       .l-panel {
@@ -28,6 +29,15 @@
 
 
 
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1&appId=355998951130";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <div class="l-content">
       <img class="back" src="/images/back.jpg" alt="" />
       <div class="l-blog">
@@ -35,6 +45,22 @@
           <div class="hentry">
             <h1 class="entry-title">Режем шапку макета #2</h1>
             <p class="date"><abbr class="updated published" title="20121223">23 декабря 2012</abbr></p>
+            <div class="b-buttons">
+              <script type="text/javascript">
+                <!--
+                  document.write(VK.Share.button({
+                    url: 'http://psd2cms.ru',
+                    title: 'Скринкасты о том как резать и натягивать',
+                    description: 'Серия скринкастов про цикл разработки от готового макета до работающего сайта на хостинговой площадке. Будет показано как и с помощью чего можно порезать макет, как установить и настроить систему управления на хостинге, и как интегрировать макет в установленную систему управления.',
+                    image: 'http://psd2cms.ru/pic.png',
+                    noparse: true
+                  }));
+                -->
+              </script>
+              <a href="https://twitter.com/share" class="twitter-share-button" data-url="psd2cms.ru" data-text="Скринкасты о том как резать и натягивать" data-via="pomeo" data-lang="ru">Твитнуть</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              <div class="fb-like" data-href="http://psd2cms.ru" data-send="false" data-layout="button_count" data-width="100" data-show-faces="true" data-font="arial"></div>
+            </div>
             <div class="content">
               <object style="height: 375px; width: 500px">
                 <param name="movie" value="http://www.youtube.com/v/sZ65wBQXaUY?version=3&feature=player_detailpage">
@@ -200,6 +226,8 @@
               <li><a href="/16.html" title="Переводим действующий сайт на html5">/16/</a></li>
       
 	
+  
+
   
 
   

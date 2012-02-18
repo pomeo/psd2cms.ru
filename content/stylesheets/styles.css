@@ -1,15 +1,15 @@
 * {
-	margin:0;
-	padding:0;
-	outline:0;
-	border:0;
+   margin:0;
+   padding:0;
+   outline:0;
+   border:0;
 }
 html,body {
     color:#666;
     font-family:Arial,sans-serif;
     font-size:80%;
-	background-color:#000;
-	overflow:hidden;
+    background-color:#000;
+    overflow:hidden;
 }
 h1, h2, h3, h4 {
     color:#000;
@@ -22,14 +22,14 @@ h1 a{
     text-decoration:none;
 }
 img {
-	border:none;
+    border:none;
 }
 a {
-	color:#000;
-	text-decoration:underline;
+    color:#000;
+    text-decoration:underline;
 }
 a:hover {
-	text-decoration:none;
+    text-decoration:none;
 }
 .l-content {
     width:100%;
@@ -74,7 +74,8 @@ a:hover {
 }
 .hentry .content{
     font-size:1.4em;
-    padding:10px 10px 0px 10px;
+    padding:5px 10px 0px 10px;
+    clear:both;
 }
 .hentry .content p{
     text-indent:10px;
@@ -87,26 +88,40 @@ a:hover {
     text-indent:0px;
     line-height:0;
 }
+.b-buttons {
+    padding-top:5px;
+}
+.fb-like {
+    float:right;
+    padding-right:10px;
+}
+#vkshare0 {
+    float:right;
+}
+.twitter-share-button {
+    float:right;
+    margin-right:-10px;
+}
 .table-of-contents {
-	list-style:decimal-leading-zero;
-	padding-left:27px;
+    list-style:decimal-leading-zero;
+    padding-left:27px;
 }
 .table-of-contents li{
-	padding-bottom:3px;
+    padding-bottom:3px;
 }
 .useful-links {
     padding-top:10px;
-	padding-left:27px;
+    padding-left:27px;
 }
 .useful-links li{
-	padding-bottom:3px;
+    padding-bottom:3px;
 }
 .comingsoon {
-	text-decoration:line-through;
+    text-decoration:line-through;
 }
 .dlink {
-	list-style:none;
-	padding-left:10px;
+    list-style:none;
+    padding-left:10px;
 }
 .entrymeta {
     background:url(../images/comment.png) no-repeat;
@@ -191,8 +206,4 @@ div.pagination ul.posts li a:hover, div.pagination ul.posts li a.active{
 }
 .author:hover {
     color:#AAA;
-}
-.addthis_toolbox {
-    padding-left:220px;
-	padding-top:7px;
 }
