@@ -2,14 +2,16 @@
 kind: "article"
 created_at: "12/21/2012 13:00"
 title: "Кроссбраузерность"
-num_scr: "13"
-download1: "<a href=\"http://video.psd2cms.ru/13-1280x800-low.mp4\">1280x800 низкое качество (Mb)</a>"
-download2: "<a href=\"http://video.psd2cms.ru/13-1280x800-high.mp4\">1280x800 высокое качество (Mb)</a>"
+youtube: ""
+download1: "<a href=\"http://psd2cms.ru/d/13-1280x800-low.mp4\">1280x800 низкое качество (Mb)</a>"
+download2: "<a href=\"http://psd2cms.ru/d/13-1280x800-high.mp4\">1280x800 высокое качество (Mb)</a>"
 ---
-<video width="500" height="375" controls="controls" preload="auto" poster="http://psd2cms.ru/flash/preview5.png">
-  <source src="http://video.psd2cms.ru/<%= @item[:num_scr] %>.mp4" type="video/mp4" />
-  здесь тег video от html5, видео можно либо скачать по ссылкам ниже или посмотреть <a href="http://psd2cms.ru/<%= @item[:num_scr] %>.html">на сайте</a>
-</video>
+<object style="height: 390px; width: 640px">
+  <param name="movie" value="http://www.youtube.com/v/<%= @item[:youtube] %>?version=3&feature=player_detailpage">
+  <param name="allowFullScreen" value="true">
+  <param name="allowScriptAccess" value="always">
+  <embed src="http://www.youtube.com/v/<%= @item[:youtube] %>?version=3&feature=player_detailpage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="360">
+</object>
 <ul>
   <li><%= @item[:download1] %></li>
   <li><%= @item[:download2] %></li>
