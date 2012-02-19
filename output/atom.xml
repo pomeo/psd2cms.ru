@@ -2,13 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://psd2cms.ru/</id>
   <title>&#1057;&#1082;&#1088;&#1080;&#1085;&#1082;&#1072;&#1089;&#1090;&#1099; &#1086; &#1090;&#1086;&#1084; &#1082;&#1072;&#1082; &#1088;&#1077;&#1079;&#1072;&#1090;&#1100; &#1080; &#1085;&#1072;&#1090;&#1103;&#1075;&#1080;&#1074;&#1072;&#1090;&#1100;</title>
-  <updated>2012-12-21T12:00:00Z</updated>
+  <updated>2012-12-21T13:00:00Z</updated>
   <link rel="alternate" href="http://psd2cms.ru/"/>
   <link rel="self" href="http://psd2cms.ru/atom.xml"/>
   <author>
     <name>Sergey Ovechkin</name>
     <uri>http://sovechkin.com</uri>
   </author>
+  <entry>
+    <id>tag:psd2cms.ru,2012-12-21:/ps.html</id>
+    <title type="html">&#1080;&#1085;&#1089;&#1090;&#1088;&#1091;&#1084;&#1077;&#1085;&#1090;&#1099; &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1077; &#1074; &#1089;&#1082;&#1088;&#1080;&#1085;&#1082;&#1072;&#1089;&#1090;&#1072;&#1093;</title>
+    <published>2012-12-21T13:00:00Z</published>
+    <updated>2012-12-21T13:00:00Z</updated>
+    <link rel="alternate" href="http://psd2cms.ru/ps.html"/>
+    <content type="html">&lt;ul class="ps"&gt;
+  &lt;li&gt;&lt;a href="http://www.ubuntu.com"&gt;Ubuntu 10.04&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="http://www.compiz.org"&gt;Compiz&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href="http://wiki.compiz.org/Plugins/Group"&gt;Group&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="http://wiki.compiz.org/Plugins/Opacify"&gt;Opacify&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="http://wiki.compiz.org/Plugins/Grid"&gt;Grid&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.winehq.org"&gt;Wine&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="http://www.adobe.com"&gt;Adobe Photoshop CS1&lt;/a&gt;&lt;br /&gt;(&#1074;&#1089;&#1105; &#1089;&#1090;&#1072;&#1085;&#1076;&#1072;&#1088;&#1090;&#1085;&#1086;, &#1087;&#1088;&#1086;&#1089;&#1090;&#1086; &#1091;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1082;&#1072; &#1095;&#1077;&#1088;&#1077;&#1079; setup.exe)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.mozilla.org/en-US/firefox/"&gt;Firefox&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="https://github.com/bard/mozrepl/wiki"&gt;MozRepl&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://chrispederick.com/work/web-developer/"&gt;Web Developer&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://users.skynet.be/mgueury/mozilla/"&gt;HTML Validator&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.gnu.org/software/emacs/"&gt;GNU Emacs&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="https://github.com/bard/mozrepl/wiki/Emacs-integration"&gt;MozRepl&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://ourcomments.org/Emacs/nXhtml/doc/nxhtml.html"&gt;nXhtml&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="https://github.com/capitaomorte/yasnippet"&gt;YASnippet&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://www.emacswiki.org/emacs/AutoComplete"&gt;Auto completion&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="https://github.com/rooney/zencoding"&gt;Zen Coding&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <id>tag:psd2cms.ru,2012-12-21:/16.html</id>
     <title type="html">&#1055;&#1077;&#1088;&#1077;&#1074;&#1086;&#1076;&#1080;&#1084; &#1076;&#1077;&#1081;&#1089;&#1090;&#1074;&#1091;&#1102;&#1097;&#1080;&#1081; &#1089;&#1072;&#1081;&#1090; &#1085;&#1072; html5</title>

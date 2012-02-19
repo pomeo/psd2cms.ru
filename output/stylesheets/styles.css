@@ -109,12 +109,26 @@ a:hover {
 .table-of-contents li{
     padding-bottom:3px;
 }
+.table-of-contents li:last-child{
+    list-style:none;
+}
 .useful-links {
     padding-top:10px;
     padding-left:27px;
 }
 .useful-links li{
     padding-bottom:3px;
+}
+.ps {
+    padding-top:10px;
+    padding-left:27px;
+}
+.ps li{
+    padding-bottom:3px;
+    padding-left:10px;
+}
+.ps li ul{
+    padding-top:5px;
 }
 .comingsoon {
     text-decoration:line-through;
