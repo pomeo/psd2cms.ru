@@ -20,7 +20,11 @@ compile /^\/(javascripts\/.+?)/ do
 end
 
 compile '/stylesheets/*' do
+  # do nothing
+end
 
+compile '/fonts/*' do
+  # do nothing
 end
 
 compile /(rss|atom)/ do
@@ -37,7 +41,7 @@ compile '*' do
   layout 'default'
 end
 
-route /\/(images|favicon|robots|flash|sitemap)\// do
+route /\/(images|favicon|fonts|robots|flash|sitemap)\// do
   item.identifier.chop + ".#{item[:extension]}"
 end
 
