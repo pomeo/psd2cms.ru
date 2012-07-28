@@ -60,7 +60,7 @@ a:hover {
 }
 .l-blog {
     width:650px;
-    height:540px;
+    height:510px;
     background:url(../images/back_blog.gif) repeat-y left top;
     padding-bottom:50px;
     position:absolute;
@@ -92,26 +92,6 @@ a:hover {
     text-indent:10px;
     line-height:140%;
     margin-bottom:1em;
-}
-#flash {
-    width:500px;
-    height:375px;
-    text-indent:0px;
-    line-height:0;
-}
-.b-buttons {
-    padding-top:5px;
-}
-.fb-like {
-    float:right;
-    padding-right:10px;
-}
-#vkshare0 {
-    float:right;
-}
-.twitter-share-button {
-    float:right;
-    margin-right:-10px;
 }
 .table-of-contents {
     list-style:decimal-leading-zero;
