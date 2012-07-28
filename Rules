@@ -31,7 +31,7 @@ compile /(rss|atom)/ do
   filter :erb unless rep.binary? # e.g. rss.png image
 end
 
-compile '/00/' do
+compile '/' do
   filter :erb
   layout 'main'
 end
@@ -41,7 +41,7 @@ compile '*' do
   layout 'default'
 end
 
-route /\/(images|favicon|fonts|robots|flash|sitemap)\// do
+route /\/(images|favicon|fonts|robots|sitemap)\// do
   item.identifier.chop + ".#{item[:extension]}"
 end
 
@@ -53,12 +53,12 @@ route '/stylesheets/*' do
   item.identifier.chop + '.css'
 end
 
-route '/(atom|rss)/' do
-  item.identifier.chop + '.xml'
-end
-
 route '*' do
-  item.identifier.chop + '.html'
+  if item.identifier == '/'
+    item.identifier + 'index.html'
+  else
+    item.identifier.chop + '.html'
+  end
 end
 
 layout '*', :erb
