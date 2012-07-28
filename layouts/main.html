@@ -55,13 +55,10 @@
       <div class="l-panel">
         <div class="pagination">
           <ul class="posts">
+              <li><a class="active" title="Оглавление">Оглавление</a></li>
 <% @items.sort_by{|i| i.identifier}.each do |i| %>
   <% if /\/\d{2}\/$/.match(i.identifier) %>
-    <% if i.identifier == @item.identifier %>
-              <li><a class="active" title="<%= i[:title] %>"><%= @post_id %></a></li>
-	<% else %>
               <li><a href="<%= i.identifier.chop %>.html" title="<%= i[:title] %>"><%= i.identifier %></a></li>
-	<% end %>
   <% end %>
 <% end %>
           </ul>
