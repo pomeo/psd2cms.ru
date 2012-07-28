@@ -27,8 +27,8 @@ compile '/fonts/*' do
   # do nothing
 end
 
-compile /(rss|atom)/ do
-  filter :erb unless rep.binary? # e.g. rss.png image
+compile '/maket1.tar' do
+  # do nothing
 end
 
 compile '/' do
@@ -51,6 +51,10 @@ end
 
 route '/stylesheets/*' do
   item.identifier.chop + '.css'
+end
+
+route '/maket1.tar' do
+  item.identifier.chop + '.gz'
 end
 
 route '*' do
