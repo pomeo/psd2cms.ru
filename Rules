@@ -11,7 +11,7 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
-compile /(images|favicon|robots|flash|sitemap)/ do
+compile /(images|favicon|robots|flash|sitemap|CNAME)/ do
   # do nothing
 end
 
@@ -55,6 +55,10 @@ end
 
 route '/maket1.tar' do
   item.identifier.chop + '.gz'
+end
+
+route '/CNAME' do
+  item.identifier.chop
 end
 
 route '*' do
