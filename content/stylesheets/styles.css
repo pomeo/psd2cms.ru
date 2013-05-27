@@ -192,7 +192,7 @@ div.pagination ul.posts li a:hover, div.pagination ul.posts li a.active{
     z-index:150;
 }
 .b-authors {
-    color:#333;
+    color:#AAA;
     font-size:30px;
     position:absolute;
     left:5px;
@@ -201,9 +201,9 @@ div.pagination ul.posts li a:hover, div.pagination ul.posts li a.active{
 .authorone,.authortwo {
     font-family:EntypoRegular;
     font-size:56px;
-    color:#333;
+    color:#AAA;
     text-decoration:none;
 }
 .authorone:hover,.authortwo:hover {
-    color:#AAA;
+    color:#FFF;
 }
