@@ -145,7 +145,7 @@ a:hover {
     text-decoration:none;
 }
 .l-panel {
-    height:40px;
+    height:41px;
     width:100%;
     opacity:0.7;
     background-color:#000;
@@ -206,4 +206,9 @@ div.pagination ul.posts li a:hover, div.pagination ul.posts li a.active{
 }
 .authorone:hover,.authortwo:hover {
     color:#FFF;
+}
+#coinbase_button_iframe_d1d877277774996397105af22b37eb7e {
+    position:absolute;
+    top:1px;
+    left:110px;
 }
