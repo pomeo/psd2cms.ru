@@ -24,5 +24,4 @@ $.fn.hAlign = function() {
 $(document).ready(function() {
     $(".posts").hAlign();
     $(".commentmeta").fancybox({ 'hideOnContentClick': false });
-    $().geekGaTrackPage('UA-3260762-10');
 });
