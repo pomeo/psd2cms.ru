@@ -7,7 +7,7 @@ set :application, "psd2cms.ru"
 #========================
 require           "capistrano-offroad"
 offroad_modules   "defaults"
-set :repository,  "git@github.com:pomeo/insalesprice.git"
+set :repository,  "git@github.com:pomeo/#{application}.git"
 #========================
 #ROLES
 #========================
