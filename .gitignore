@@ -29,8 +29,6 @@ tmp
 *.iso
 *.jar
 *.rar
-*.tar
-*.tar.gz
 *.zip
 *.bzip
 ._*
