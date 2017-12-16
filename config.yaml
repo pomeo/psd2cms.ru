@@ -6,7 +6,7 @@ text_extensions: [ 'css', 'erb', 'haml', 'htm', 'html', 'js', 'less', 'markdown'
 # The path to the directory where all generated files will be written to. This
 # can be an absolute path starting with a slash, but it can also be path
 # relative to the site directory.
-output_dir: output
+output_dir: public
 
 # A list of index filenames, i.e. names of files that will be served by a web
 # server when a directory is requested. Usually, index files are named
@@ -19,10 +19,10 @@ index_filenames: [ '00.html' ]
 # before and after the last site compilation.
 enable_output_diff: false
 
-base_url: "http://psd2cms.ru"
+base_url: "https://psd2cms.ru"
 author_name: "Sergey Ovechkin"
-author_email: "me@sovechkin.com"
-author_uri: "http://sovechkin.com"
+author_email: "me@pomeo.me"
+author_uri: "https://pomeo.me"
 
 # The data sources where nanoc loads its data from. This is an array of
 # hashes; each array element represents a single data source. By default,
