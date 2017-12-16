@@ -3,16 +3,4 @@ kind: "article"
 created_at: "12/21/2012 02:00"
 title: "Режем шапку макета #1"
 youtube: "x9Y4BvDc7Bg&index=2&list=PLXPOZ9OSB5vNKgs7Dm3L5abWYa39QtfpV"
-download1: "<a href=\"http://psd2cms.ru/d/02-1280x800-low.mp4\">1280x800 низкое качество (61Mb)</a>"
-download2: "<a href=\"http://psd2cms.ru/d/02-1280x800-high.mp4\">1280x800 высокое качество (496Mb)</a>"
 ---
-<object style="height: 390px; width: 640px">
-  <param name="movie" value="http://www.youtube.com/v/<%= @item[:youtube] %>?version=3&feature=player_detailpage">
-  <param name="allowFullScreen" value="true">
-  <param name="allowScriptAccess" value="always">
-  <embed src="http://www.youtube.com/v/<%= @item[:youtube] %>?version=3&feature=player_detailpage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="360">
-</object>
-<ul>
-  <li><%= @item[:download1] %></li>
-  <li><%= @item[:download2] %></li>
-</ul>
